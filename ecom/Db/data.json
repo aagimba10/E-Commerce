@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "id": 1,
+    "names": "John Cena",
+    "email": "roman12@189gmail.com",
+    "password": "123p856rr",
+    "address": "54/13 fake street tvt, th road chennai",
+    "address2": "54/14 fake street tvt, tn road chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zip": "600019",
+    "subscribe": true
+  }
+}

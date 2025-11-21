@@ -1,0 +1,22 @@
+.font-size-icon {
+    font-size: 30px;
+}
+.navbar{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.name_marign{
+    margin-right: 240px;
+}
+.w-40{
+    width: 40%;
+}
+body {
+  background-color: #e0f7fa; /* soft pastel blue */
+  font-family: 'Arial', sans-serif;
+}
+.image{
+height: 200px;}
