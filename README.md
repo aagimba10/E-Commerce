@@ -55,8 +55,31 @@ npm install
 3️⃣ Start the Frontend
 npm run dev
 
-4️⃣ Start JSON Server
-npx json-server --watch Db/data.json --port 5000
+🖥️ 4️⃣ Start Backend (JSON Servers)
+
+Your project uses three separate JSON Server files:
+
+✅ 3000 → profile.json
+npx json-server --watch Db/profile.json --port 3000
+
+✅ 4000 → cart.json
+npx json-server --watch Db/cart.json --port 4000
+
+✅ 5000 → buy.json
+npx json-server --watch Db/buy.json --port 5000
+
+📌 (Optional) Run All Servers Together
+
+Run each command in a separate terminal:
+
+# Terminal 1
+npx json-server --watch Db/profile.json --port 3000
+
+# Terminal 2
+npx json-server --watch Db/cart.json --port 4000
+
+# Terminal 3
+npx json-server --watch Db/buy.json --port 5000
 
 📁 Folder Structure
 src/
@@ -66,7 +89,6 @@ src/
  ├── App.jsx
  ├── main.jsx
  └── index.css
-
 
 🤝 Contributing
 
