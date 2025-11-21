@@ -1,4 +1,0 @@
-Fetch data	GET
-Create new data	POST
-Update existing data	PUT
-Delete data	DELETE
