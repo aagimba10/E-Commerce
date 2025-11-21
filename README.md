@@ -67,9 +67,6 @@ src/
  ├── main.jsx
  └── index.css
 
-📸 Screenshots
-
-(Add screenshots later if needed)
 
 🤝 Contributing
 
