@@ -1,17 +1,19 @@
+🚀 E-Commerce (React + Vite)
+
 A simple e-commerce frontend built using React + Vite, demonstrating product listing, cart functionality, orders, and API integration using Axios and JSON Server.
 
 🚀 Features
 ✅ Product Listing
 
-Display all products fetched from API.
+Displays all products fetched from the API.
 
 ✅ Add to Cart
 
-Users can add products to the cart with one click.
+Users can add any product to the cart with one click.
 
 ✅ Orders Page
 
-After buying, product is moved from cart → orders.
+After buying, products are moved from Cart → Orders automatically.
 
 ✅ API Integration
 
@@ -19,7 +21,7 @@ Uses Axios for GET, POST, DELETE requests.
 
 ✅ JSON Server Backend
 
-Simulates backend using:
+Simulates a backend using routes:
 
 /products
 
@@ -58,7 +60,7 @@ npx json-server --watch Db/data.json --port 5000
 
 📸 Screenshots
 
-(Add screenshots later if you want)
+(Add screenshots later)
 
 📁 Folder Structure
 src/
