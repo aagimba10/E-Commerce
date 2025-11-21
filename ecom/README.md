@@ -1,16 +1,79 @@
-# React + Vite
+A simple e-commerce frontend built using React + Vite, demonstrating product listing, cart functionality, orders, and API integration using Axios and JSON Server.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Product Listing
 
-Currently, two official plugins are available:
+Display all products fetched from API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add to Cart
 
-## React Compiler
+Users can add products to the cart with one click.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Orders Page
 
-## Expanding the ESLint configuration
+After buying, product is moved from cart → orders.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ API Integration
+
+Uses Axios for GET, POST, DELETE requests.
+
+✅ JSON Server Backend
+
+Simulates backend using:
+
+/products
+
+/cart
+
+/orders
+
+/buy
+
+🛠️ Tech Stack
+
+React
+
+Vite
+
+Axios
+
+React Router DOM
+
+Bootstrap 5
+
+JSON Server
+
+📦 Installation & Setup
+1️⃣ Clone the project
+git clone https://github.com/NanmaranS/E-Commerce.git
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the frontend
+npm run dev
+
+4️⃣ Start JSON Server
+npx json-server --watch Db/data.json --port 5000
+
+📸 Screenshots
+
+(Add screenshots later if you want)
+
+📁 Folder Structure
+src/
+  ├── Pages/
+  ├── Header/
+  ├── useFetch/
+  ├── App.jsx
+  ├── main.jsx
+  └── index.css
+
+🤝 Contributing
+
+Pull requests are welcome.
+
+🧑‍💻 Author
+
+Nanmaran S
+React Frontend Developer
