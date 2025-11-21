@@ -1,97 +1,84 @@
 🛒 E-Commerce Frontend (React + Vite)
 
-A clean and simple e-commerce frontend built using React + Vite, featuring product listing, cart management, order handling, and API integration using Axios + JSON Server.
+A simple e-commerce frontend built using React.js and Vite, featuring product listing, cart management, order handling, and API integration using Axios + JSON Server.
+This project demonstrates full CRUD functionality and a responsive UI.
 
-🚀 Features
-✔️ Product Listing
+Project Overview
 
-Displays all products fetched from an API.
+View Products (Read): Fetch and display products from the API.
 
-✔️ Add to Cart
+Add to Cart (Create): Users can add products to the cart with one click.
 
-Users can add any product to the cart with one click.
+Place Orders (Create/Update): Move products from Cart → Orders after purchase.
 
-✔️ Orders Page
+Cancel Orders (Delete): Users can cancel any order from the orders page.
 
-After buying, products automatically move from Cart → Orders.
+Search & Filter: Search products dynamically.
 
-✔️ Axios API Integration
+Full CRUD Implementation: Handles GET, POST, DELETE requests with Axios.
 
-Handles GET, POST, DELETE requests.
+Responsive UI: Designed with React and Bootstrap 5.
 
-✔️ JSON Server Backend
+Technologies Used
 
-Simulated backend with endpoints:
+React.js – Component-based frontend
 
-/products
-/cart
-/orders
-/buy
+Vite – Fast build & hot module replacement
 
-🛠️ Tech Stack
+Axios – API requests (GET, POST, DELETE)
 
-React
+React Router DOM – Navigation between pages
 
-Vite
+Bootstrap 5 – Responsive styling
 
-Axios
+JSON Server – Mock backend
 
-React Router DOM
+Installation & Setup
 
-Bootstrap 5
+Open your terminal and run the following commands step by step:
 
-JSON Server
-
-📦 Installation & Setup
-1️⃣ Clone the Repository
+# Clone the repository
 git clone https://github.com/NanmaranS/E-Commerce.git
 
-2️⃣ Install Dependencies
+# Navigate to project folder
+cd E-Commerce
+
+# Install dependencies
 npm install
 
-3️⃣ Start the Frontend
+# Start the frontend
 npm run dev
 
-🖥️ 4️⃣ Start Backend (JSON Servers)
-
-Your project uses three separate JSON Server files:
-
-✅ Port 3000 → profile.json
+# Start backend (JSON Servers)
+# 3000 → profile.json
 npx json-server --watch Db/profile.json --port 3000
 
-✅ Port 4000 → cart.json
+# 4000 → cart.json
 npx json-server --watch Db/cart.json --port 4000
 
-✅ Port 5000 → buy.json
+# 5000 → buy.json
 npx json-server --watch Db/buy.json --port 5000
 
-📌 (Optional) Run All Servers Together
 
-Run each command in separate terminals:
+Optional: Run all three JSON Servers in separate terminals simultaneously.
 
-Terminal 1
-npx json-server --watch Db/profile.json --port 3000
-
-Terminal 2
-npx json-server --watch Db/cart.json --port 4000
-
-Terminal 3
-npx json-server --watch Db/buy.json --port 5000
-
-📁 Folder Structure
+Folder Structure
 src/
- ├── Pages/
- ├── Header/
- ├── useFetch/
+ ├── Pages/       # Cart, Orders, Profile pages
+ ├── Header/      # Navbar & Header component
+ ├── useFetch/    # Custom fetch hooks
  ├── App.jsx
  ├── main.jsx
  └── index.css
+Db/
+ ├── profile.json
+ ├── cart.json
+ └── buy.json
 
-🤝 Contributing
+Contributing
 
-Pull requests are welcome!
+Pull requests are welcome! Feel free to contribute improvements, bug fixes, or additional features.
 
-🧑‍💻 Author
+Author
 
-Nanmaran S
-React Frontend Developer
+Nanmaran S – React Frontend Developer
