@@ -104,17 +104,22 @@ Note: Each of the three JSON servers should be run in a separate terminal simult
 
 ```
 src/
- ├── Pages/       # Cart, Orders, Profile pages
- ├── Header/      # Header component
- ├── useFetch/    # Custom fetch hooks
- ├── App.jsx
- ├── main.jsx
- └── index.css
+ ├── Pages/          
+ │    ├── Cart.jsx           # Cart page
+ │    ├── Orders.jsx         # Orders page
+ │    └── Profile.jsx        # Profile page
+ ├── Header/                 # Header / Navbar component
+ ├── useFetch/               # Custom fetch hooks
+ ├── App.jsx                 # Main App component
+ ├── Products_fetch.jsx      # Home / Products page
+ ├── main.jsx                # Entry point
+ └── index.css               # Global styles
 Db/
- ├── profile.json
- ├── cart.json
- └── buy.json
+ ├── profile.json            # Profile data
+ ├── cart.json               # Cart data
+ └── buy.json                # Orders / Buy data
 ```
+
 
 ---
 
