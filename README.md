@@ -1,4 +1,4 @@
-<img width="1920" height="1020" alt="home" src="https://github.com/user-attachments/assets/d644daf3-218f-40d4-b3a1-b48017e9f4cd" />## 🛒 E-Commerce Frontend (React + Vite)
+## 🛒 E-Commerce Frontend (React + Vite)
 
 A simple e-commerce frontend built using React.js and Vite, featuring product listing, cart management, order handling, and API integration using Axios + JSON Server.
 This project demonstrates full CRUD functionality and a responsive UI.
