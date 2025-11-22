@@ -53,7 +53,7 @@ const buy=(c)=>{
     <h5 className="card-title">{c.title}</h5>
     <p className="card-text">Category :{c.category}</p>
     <p className='card-text fw-bold'> ₹{c.price}</p>
-    <button onClick={()=>{buy(c)}} className='btn btn-success'>Buy</button>
+    <button onClick={()=>{buy(c)}} className='btn btn-success me-5'>Buy</button>
     {/* <p>{c.desc}</p> */}
     <button  onClick={()=>{product_delete(c.id)}} className="btn btn-danger"><i className="bi bi-cart-dash"></i> Remove </button>
   </div>
